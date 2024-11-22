@@ -11,3 +11,10 @@ for(int i=0;i<5;i++)
 {
     Console.WriteLine("i : " + i);
 }
+
+while(true)
+{
+    string s = Console.ReadLine();
+    if(s == "close")
+    break;
+}
